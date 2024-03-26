@@ -1,4 +1,3 @@
-
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -6,6 +5,8 @@
     transition: opacity .8s ease-out, visibility 0s linear .5s;
     z-index: 99999;
  }
+
+
 
  #spinner.show {
      transition: opacity .8s ease-out, visibility 0s linear .0s;
@@ -164,97 +165,6 @@
 }
 
 /*** Navbar End ***/
-
-
-
-/*** Carousel Start ***/
-
-.carousel-item {
-    position: relative;
-}
-
-.carousel-item::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    background: rgba(0, 0, 0, .7);
-}
-
-.carousel-caption {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: start;
-    z-index: 1;
-}
-
-.carousel-control-prev {
-    width: 80px;
-    height: 60px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    background: var(--bs-primary);
-    border-radius: 0 30px 30px 0;
-    transition: .5s;
-    opacity: 1;
-}
-
-
-.carousel-control-next {
-    width: 80px;
-    height: 60px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    background: var(--bs-primary);
-    border-radius: 30px 0 0 30px;
-    transition: .5s;
-    opacity: 1;
-}
-
-#carouselId .carousel-indicators li,
-#carouselId .carousel-indicators li {
-    width: 24px;
-    height: 24px;
-    background: var(--bs-dark);
-    border: 2px solid var(--bs-primary);
-    border-radius: 24px;
-    margin: 0 10px 30px 10px;
-}
-
-#carouselId .carousel-indicators li.active {
-    background: var(--bs-primary) !important;
-}
-
-@media (max-width: 768px) {
-    .carousel-item {
-        width: 100%;
-        height: 400px;
-    }
-
-    .carousel-item img {
-        height: 400px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none;
-    }
-    
-}
-
-.page-header {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) center center no-repeat;
-    background-size: cover;
-    margin-bottom: 6rem;
-}
-
-/*** Carousel End ***/
-
 
 /*** About Start ***/
 
@@ -838,4 +748,37 @@ color: #000;
 .logo {
     display: flex;
     align-items: center;
+}
+
+
+
+.section-title {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    .title-text {
+        color: white;
+        margin: 0;
+    }
+
+    img {
+        width: 40px;
+    }
+}
+
+.list-thumbnail img {
+    width: 100%;
+    border-radius: 15px;
+}
+.grid-3 {
+    margin-bottom: 20px;
+}
+@media(hover: hover) and (pointer: fine) {
+    .list-thumbnail:hover {
+        opacity: 0.5;
+        transition: all 0.5s ease;
+    }
 }

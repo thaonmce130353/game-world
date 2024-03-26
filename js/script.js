@@ -6,38 +6,26 @@ function open_fullscreen() {
     if (is_fullscreen) {
         // Exit fullscreen
         is_fullscreen = false;
-        if (is_mobile_device()) {
-            game.style.position = "absolute";
-            document.getElementById("mobile-back-button").style.display = "none";
-            document.getElementById("game-player").style.display = "none";
-        } else {
-            if (game.requestFullscreen) {
-                game.requestFullscreen();
-            } else if (game.mozRequestFullScreen) { /* Firefox */
-                game.mozRequestFullScreen();
-            } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                game.webkitRequestFullscreen();
-            } else if (game.msRequestFullscreen) { /* IE/Edge */
-                game.msRequestFullscreen();
-            }
+        if (game.requestFullscreen) {
+            game.requestFullscreen();
+        } else if (game.mozRequestFullScreen) { /* Firefox */
+            game.mozRequestFullScreen();
+        } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+            game.webkitRequestFullscreen();
+        } else if (game.msRequestFullscreen) { /* IE/Edge */
+            game.msRequestFullscreen();
         }
     } else {
         // Enter fullscreen
         is_fullscreen = true;
-        if (is_mobile_device()) {
-            document.getElementById("game-player").style.display = "block";
-            game.style.position = "fixed";
-            document.getElementById("mobile-back-button").style.display = "flex";
-        } else {
-            if (game.requestFullscreen) {
-                game.requestFullscreen();
-            } else if (game.mozRequestFullScreen) { /* Firefox */
-                game.mozRequestFullScreen();
-            } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                game.webkitRequestFullscreen();
-            } else if (game.msRequestFullscreen) { /* IE/Edge */
-                game.msRequestFullscreen();
-            }
+        if (game.requestFullscreen) {
+            game.requestFullscreen();
+        } else if (game.mozRequestFullScreen) { /* Firefox */
+            game.mozRequestFullScreen();
+        } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+            game.webkitRequestFullscreen();
+        } else if (game.msRequestFullscreen) { /* IE/Edge */
+            game.msRequestFullscreen();
         }
     }
 };
