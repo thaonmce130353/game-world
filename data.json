@@ -5,18 +5,135 @@
         "game_url": "retro-bowl",
         "name": "Retro Bowl",
         "category": "sports",
-        "image": "images/retro-bowl/128x128.png",
+        "image": "images/icons/retro-bowl.png",
         "url": "https://thaonmce130353.github.io/games/retro-bowl/index.html",
-        "order": 2
+        "order": 50
     },
     {
       "id": 102,
       "game_url": "1v1-lol",
       "name": "1v1 LoL",
       "category": "shooting",
-      "image": "images/1v1-lol/1v1-lol.png",
+      "image": "images/icons/1v1-lol.png",
       "url": "https://thaonmce130353.github.io/games/1v1-lol/unity/1v1_lol.html",
-      "order": 1
+      "order": 20
+    },
+    {
+      "id": 103,
+      "game_url": "2048",
+      "name": "2048",
+      "category": "puzzle",
+      "image": "images/icons/2048.png",
+      "url": "https://thaonmce130353.github.io/games/2048/index.html",
+      "order": 3
+    },
+    {
+      "id": 104,
+      "game_url": "2048-cupcakes",
+      "name": "2048 Cupcakes",
+      "category": "puzzle",
+      "image": "images/icons/2048-cupcakes.png",
+      "url": "https://thaonmce130353.github.io/games/2048-cupcakes/index.html",
+      "order": 3
+    },
+    {
+      "id": 105,
+      "game_url": "asteroids",
+      "name": "Asteroids Game",
+      "category": "puzzle",
+      "image": "images/icons/asteroids.png",
+      "url": "https://thaonmce130353.github.io/games/asteroids/index.html",
+      "order": 3
+    },
+    {
+      "id": 106,
+      "game_url": "basketball-legends",
+      "name": "Basketball Legends",
+      "category": "puzzle",
+      "image": "images/icons/basketball-legends.png",
+      "url": "https://thaonmce130353.github.io/games/basketball-legends/index.html",
+      "order": 7
+    },
+    {
+      "id": 107,
+      "game_url": "bitLife-simulator",
+      "name": "BitLife Simulator",
+      "category": "puzzle",
+      "image": "images/icons/bitLife-simulator.png",
+      "url": "https://thaonmce130353.github.io/games/bitLife-simulator/index.html",
+      "order": 2
+    },
+    {
+      "id": 108,
+      "game_url": "bloxorz",
+      "name": "Bloxorz",
+      "category": "puzzle",
+      "image": "images/icons/bloxorz.png",
+      "url": "https://thaonmce130353.github.io/games/bloxorz/ruffle.html",
+      "order": 3
+    },
+    {
+      "id": 109,
+      "game_url": "bubble-shooter",
+      "name": "Bubble Shooter",
+      "category": "puzzle",
+      "image": "images/icons/bubble-shooter.png",
+      "url": "https://thaonmce130353.github.io/games/bubble-shooter/index.html",
+      "order": 2
+    },
+    {
+      "id": 110,
+      "game_url": "dino-jump",
+      "name": "Dino Jump",
+      "category": "puzzle",
+      "image": "images/icons/dino-jump.png",
+      "url": "https://thaonmce130353.github.io/games/dino-jump/index.html",
+      "order": 2
+    },
+    {
+      "id": 111,
+      "game_url": "doodle-jump",
+      "name": "Doodle Jump",
+      "category": "puzzle",
+      "image": "images/icons/doodle-jump.png",
+      "url": "https://thaonmce130353.github.io/games/doodle-jump/index.html",
+      "order": 4
+    },
+    {
+      "id": 112,
+      "game_url": "drift-boss",
+      "name": "Drift Boss",
+      "category": "car",
+      "image": "images/icons/drift-boss.png",
+      "url": "https://thaonmce130353.github.io/games/drift-boss/index.html",
+      "order": 2
+    },
+    {
+      "id": 113,
+      "game_url": "drive-mad",
+      "name": "Drive Mad",
+      "category": "car",
+      "image": "images/icons/drive-mad.png",
+      "url": "https://thaonmce130353.github.io/games/drive-mad/index.html",
+      "order": 2
+    },
+    {
+      "id": 114,
+      "game_url": "eggy-car",
+      "name": "Eggy Car",
+      "category": "car",
+      "image": "images/icons/eggy-car.png",
+      "url": "https://thaonmce130353.github.io/games/eggy-car/index.html",
+      "order": 5
+    },
+    {
+      "id": 115,
+      "game_url": "elastic-man",
+      "name": "Elastic Man",
+      "category": "puzzle",
+      "image": "images/icons/elastic-man.png",
+      "url": "https://thaonmce130353.github.io/games/elastic-man/index.html",
+      "order": 4
     }
   ]
 }

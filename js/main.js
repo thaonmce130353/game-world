@@ -5,12 +5,12 @@ fetch('data.json')
         games = response.games;
         //Load the new games
         const newGamesContainer = document.querySelector('.new-games-container');
-        const newGames = games.sort((a,b) => a.id - b.id);
+        const newGames = games.sort((a,b) => b.id - a.id);
         appendItems(newGames, newGamesContainer);
 
         //Load the popular games
         const trendingContainer = document.querySelector('.trending-games-container');
-        const trendingGames = games.sort((a,b) => a.order - b.order);
+        const trendingGames = games.sort((a,b) => b.order - a.order);
         appendItems(trendingGames, trendingContainer);
     }).catch(error => console.error('Error:', error));
 
