@@ -108,6 +108,7 @@
       "category": "car,racing",
       "image": "images/icons/drift-boss.png",
       "url": "https://thaonmce130353.github.io/games/drift-boss/index.html",
+      "lock_full_screen": true,
       "order": 2
     },
     {
