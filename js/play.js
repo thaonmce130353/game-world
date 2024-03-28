@@ -7,7 +7,7 @@ fetch('data.json')
         document.getElementById("game-area").setAttribute("src", game?.url);
         document.getElementById("game-title").textContent = game?.name;
         var fullScreen = document.getElementById("open-full-screen");
-        if (game?.is_full_screen) {
+        if (game?.lock_full_screen) {
             fullScreen.style.display = "none";
         }
     }).catch(error => console.error('Error:', error));

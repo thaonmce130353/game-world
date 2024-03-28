@@ -70,6 +70,7 @@
       "category": "puzzle",
       "image": "images/icons/bloxorz.png",
       "url": "https://thaonmce130353.github.io/games/bloxorz/ruffle.html",
+      "lock_full_screen": true,
       "order": 3
     },
     {
@@ -97,6 +98,7 @@
       "category": "skill",
       "image": "images/icons/doodle-jump.png",
       "url": "https://thaonmce130353.github.io/games/doodle-jump/index.html",
+      "lock_full_screen": true,
       "order": 4
     },
     {
@@ -151,12 +153,13 @@
       "category": "skill",
       "image": "images/icons/flappy-bird.png",
       "url": "https://thaonmce130353.github.io/games/flappy-bird/index.html",
+      "lock_full_screen": true,
       "order": 10
     },
     {
       "id": 118,
       "game_url": "geometry-dash",
-      "name": "geometry-dash",
+      "name": "Geometry Dash",
       "category": "skill,adventure",
       "image": "images/icons/geometry-dash.png",
       "url": "https://thaonmce130353.github.io/games/geometry-dash/index.html",
@@ -232,7 +235,7 @@
       "category": "adventure,skill,shooting",
       "image": "images/icons/rooftop-snipers.png",
       "url": "https://thaonmce130353.github.io/games/rooftop-snipers/index.html",
-      "is_full_screen": true,
+      "lock_full_screen": true,
       "order": 20
     },
     {
@@ -251,6 +254,7 @@
       "category": "running,skill",
       "image": "images/icons/slope.png",
       "url": "https://thaonmce130353.github.io/games/slope/slope.html",
+      "lock_full_screen": true,
       "order": 11
     },
     {
