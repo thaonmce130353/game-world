@@ -739,6 +739,7 @@ color: #000;
 .main-content {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  min-height: calc(100vh - 215px);
 }
 
 .logo-icon {

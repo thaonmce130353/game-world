@@ -4,7 +4,7 @@
         "id": 101,
         "game_url": "retro-bowl",
         "name": "Retro Bowl",
-        "category": "sports",
+        "category": "sports,skill",
         "image": "images/icons/retro-bowl.png",
         "url": "https://thaonmce130353.github.io/games/retro-bowl/index.html",
         "order": 50
@@ -13,7 +13,7 @@
       "id": 102,
       "game_url": "1v1-lol",
       "name": "1v1 LoL",
-      "category": "shooting",
+      "category": "shooting,skill,multiplayer",
       "image": "images/icons/1v1-lol.png",
       "url": "https://thaonmce130353.github.io/games/1v1-lol/unity/1v1_lol.html",
       "order": 20
@@ -49,7 +49,7 @@
       "id": 106,
       "game_url": "basketball-legends",
       "name": "Basketball Legends",
-      "category": "puzzle",
+      "category": "skill,sports",
       "image": "images/icons/basketball-legends.png",
       "url": "https://thaonmce130353.github.io/games/basketball-legends/index.html",
       "order": 7
@@ -58,7 +58,7 @@
       "id": 107,
       "game_url": "bitLife-simulator",
       "name": "BitLife Simulator",
-      "category": "puzzle",
+      "category": "puzzle,adventure",
       "image": "images/icons/bitLife-simulator.png",
       "url": "https://thaonmce130353.github.io/games/bitLife-simulator/index.html",
       "order": 2
@@ -85,7 +85,7 @@
       "id": 110,
       "game_url": "dino-jump",
       "name": "Dino Jump",
-      "category": "puzzle",
+      "category": "skill",
       "image": "images/icons/dino-jump.png",
       "url": "https://thaonmce130353.github.io/games/dino-jump/index.html",
       "order": 2
@@ -94,7 +94,7 @@
       "id": 111,
       "game_url": "doodle-jump",
       "name": "Doodle Jump",
-      "category": "puzzle",
+      "category": "skill",
       "image": "images/icons/doodle-jump.png",
       "url": "https://thaonmce130353.github.io/games/doodle-jump/index.html",
       "order": 4
@@ -103,7 +103,7 @@
       "id": 112,
       "game_url": "drift-boss",
       "name": "Drift Boss",
-      "category": "car",
+      "category": "car,racing",
       "image": "images/icons/drift-boss.png",
       "url": "https://thaonmce130353.github.io/games/drift-boss/index.html",
       "order": 2
@@ -112,7 +112,7 @@
       "id": 113,
       "game_url": "drive-mad",
       "name": "Drive Mad",
-      "category": "car",
+      "category": "car,racing",
       "image": "images/icons/drive-mad.png",
       "url": "https://thaonmce130353.github.io/games/drive-mad/index.html",
       "order": 2
@@ -121,7 +121,7 @@
       "id": 114,
       "game_url": "eggy-car",
       "name": "Eggy Car",
-      "category": "car",
+      "category": "car,racing",
       "image": "images/icons/eggy-car.png",
       "url": "https://thaonmce130353.github.io/games/eggy-car/index.html",
       "order": 5
@@ -130,10 +130,191 @@
       "id": 115,
       "game_url": "elastic-man",
       "name": "Elastic Man",
-      "category": "puzzle",
+      "category": "3D",
       "image": "images/icons/elastic-man.png",
       "url": "https://thaonmce130353.github.io/games/elastic-man/index.html",
       "order": 4
+    },
+    {
+      "id": 116,
+      "game_url": "fireboy-and-watergirl",
+      "name": "Fireboy And Watergirl",
+      "category": "puzzle,multiplayer,adventure",
+      "image": "images/icons/fireboy-and-watergirl.png",
+      "url": "https://thaonmce130353.github.io/games/fireboy-and-watergirl/index.html",
+      "order": 4
+    },
+    {
+      "id": 117,
+      "game_url": "flappy-bird",
+      "name": "Flappy Bird",
+      "category": "skill",
+      "image": "images/icons/flappy-bird.png",
+      "url": "https://thaonmce130353.github.io/games/flappy-bird/index.html",
+      "order": 10
+    },
+    {
+      "id": 118,
+      "game_url": "geometry-dash",
+      "name": "geometry-dash",
+      "category": "skill,adventure",
+      "image": "images/icons/geometry-dash.png",
+      "url": "https://thaonmce130353.github.io/games/geometry-dash/index.html",
+      "order": 4
+    },
+    {
+      "id": 119,
+      "game_url": "head-soccer",
+      "name": "Head Soccer 2022",
+      "category": "skill,sports",
+      "image": "images/icons/head-soccer.png",
+      "url": "https://thaonmce130353.github.io/games/head-soccer/index.html",
+      "order": 12
+    },
+    {
+      "id": 120,
+      "game_url": "idle-breakout",
+      "name": "Idle Breakout",
+      "category": "puzzle",
+      "image": "images/icons/idle-breakout.png",
+      "url": "https://thaonmce130353.github.io/games/idle-breakout/index.html",
+      "order": 12
+    },
+    {
+      "id": 121,
+      "game_url": "temple-run",
+      "name": "Temple Run 2",
+      "category": "running,adventure",
+      "image": "images/icons/temple-run.png",
+      "url": "https://thaonmce130353.github.io/games/temple-run/index.html",
+      "order": 100
+    },
+    {
+      "id": 122,
+      "game_url": "subway-surfers",
+      "name": "Subway Surfers",
+      "category": "running,adventure",
+      "image": "images/icons/subway-surfers.png",
+      "url": "https://thaonmce130353.github.io/games/subway-surfers/game.html",
+      "order": 99
+    },
+    {
+      "id": 123,
+      "game_url": "jelly-truck",
+      "name": "Jelly Truck",
+      "category": "car,running",
+      "image": "images/icons/jelly-truck.png",
+      "url": "https://thaonmce130353.github.io/games/jelly-truck/index.html",
+      "order": 6
+    },
+    {
+      "id": 124,
+      "game_url": "monkey-mart",
+      "name": "Monkey Mart",
+      "category": "adventure",
+      "image": "images/icons/monkey-mart.png",
+      "url": "https://thaonmce130353.github.io/games/monkey-mart/index.html",
+      "order": 70
+    },
+    {
+      "id": 125,
+      "game_url": "roller-baller",
+      "name": "Roller Baller",
+      "category": "running",
+      "image": "images/icons/roller-baller.png",
+      "url": "https://thaonmce130353.github.io/games/roller-baller/index.html",
+      "order": 8
+    },
+    {
+      "id": 126,
+      "game_url": "rooftop-snipers",
+      "name": "Rooftop Snipers",
+      "category": "adventure,skill,shooting",
+      "image": "images/icons/rooftop-snipers.png",
+      "url": "https://thaonmce130353.github.io/games/rooftop-snipers/index.html",
+      "is_full_screen": true,
+      "order": 20
+    },
+    {
+      "id": 127,
+      "game_url": "run-3",
+      "name": "Run 3",
+      "category": "running,skill",
+      "image": "images/icons/run-3.png",
+      "url": "https://thaonmce130353.github.io/games/run-3/index.html",
+      "order": 9
+    },
+    {
+      "id": 128,
+      "game_url": "slope",
+      "name": "Slope",
+      "category": "running,skill",
+      "image": "images/icons/slope.png",
+      "url": "https://thaonmce130353.github.io/games/slope/slope.html",
+      "order": 11
+    },
+    {
+      "id": 129,
+      "game_url": "soduku",
+      "name": "Soduku",
+      "category": "puzzle",
+      "image": "images/icons/soduku.png",
+      "url": "https://thaonmce130353.github.io/games/soduku/index.html",
+      "order": 13
+    },
+    {
+      "id": 130,
+      "game_url": "solitaire",
+      "name": "Solitaire",
+      "category": "puzzle",
+      "image": "images/icons/solitaire.png",
+      "url": "https://thaonmce130353.github.io/games/solitaire/index.html",
+      "order": 7
+    },
+    {
+      "id": 131,
+      "game_url": "sonic",
+      "name": "Sonic",
+      "category": "adventure,skill",
+      "image": "images/icons/sonic.png",
+      "url": "https://thaonmce130353.github.io/games/sonic/index.html",
+      "order": 31
+    },
+    {
+      "id": 132,
+      "game_url": "stick-defenders",
+      "name": "Stick Defenders",
+      "category": "stickman,skill",
+      "image": "images/icons/stick-defenders.png",
+      "url": "https://thaonmce130353.github.io/games/stick-defenders/index.html",
+      "order": 30
+    },
+    {
+      "id": 133,
+      "game_url": "tunnel-rush-2",
+      "name": "Tunnel Rush 2",
+      "category": "running,skill,racing",
+      "image": "images/icons/tunnel-rush-2.png",
+      "url": "https://thaonmce130353.github.io/games/tunnel-rush-2/index.html",
+      "order": 16
+    },
+    {
+      "id": 134,
+      "game_url": "vex7",
+      "name": "Vex 7",
+      "category": "running,skill,stickman",
+      "image": "images/icons/vex7.png",
+      "url": "https://thaonmce130353.github.io/games/vex7/index.html",
+      "order": 23
+    },
+    {
+      "id": 135,
+      "game_url": "wordle-game",
+      "name": "Wordle Game",
+      "category": "puzzle",
+      "image": "images/icons/wordle-game.png",
+      "url": "https://thaonmce130353.github.io/games/wordle-game/index.html",
+      "order": 18
     }
   ]
 }
