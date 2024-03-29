@@ -13,6 +13,6 @@ fetch('data.json')
 
         //Load the popular games
         const trendingContainer = document.querySelector('.trending-games-container');
-        const trendingGames = games.sort((a,b) => b.order - a.order)?.slice(0,18);
+        const trendingGames = response.games.sort((a,b) => b.order - a.order)?.slice(0,12);
         appendItems(trendingGames, trendingContainer);
     }).catch(error => console.error('Error:', error));

@@ -26,6 +26,46 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .post-item {
+            display: flex;
+        }
+
+        .post-media {
+            width: 100%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .report-content {
+            text-align: justify;
+            font-size: 18px;
+            color: antiquewhite;
+        }
+
+        @media only screen and (max-width: 640px) {
+            .post-media .post-thumb {
+                float: none;
+                overflow: unset;
+                margin-left: 0;
+                margin-bottom: 20px;
+                width: unset;
+            }
+            .post-media .post-thumb img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body style="background: url('images/background.png') no-repeat center center / cover;">
@@ -82,8 +122,6 @@
                 <iframe class="game-iframe" id="game-area" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen=""></iframe>
             </div>
         </div>
-
-
         <div class="game-info">
             <div class="header-left">
                 <div class="single-title" id="game-title"></div>
@@ -91,6 +129,18 @@
             <div class="header-right" id="open-full-screen">
                 <div class="b-action2">
                     <a href="#" onclick="open_fullscreen()" class="btn btn-capsule"><i class="bi bi-arrows-fullscreen b-icon"></i>&nbsp;Fullscreen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-5">
+    <div class="post-item">
+        <div class="post-media">
+            <div class="post-body">
+                <h2 class="section-title">HAVING BUGS? </h2>
+                <div class="report-content">
+                    If you're having trouble playing games on this website, don't worry! Just take a picture of the problem you're seeing on your computer, and send it to our email at <strong>nguyenminhthaobt1@gmail.com</strong>. We want to make sure
+                    you can have fun playing our games, so we'll work hard to fix the issue as soon as possible. Thanks for letting us know!
                 </div>
             </div>
         </div>
