@@ -75,97 +75,14 @@
         </div>
         <!-- Navbar End -->
 
-        <!-- Carousel Start -->
-        <div class="container text-center my-3">
-            <div class="row mx-auto my-auto justify-content-center">
-                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="images/carousel/drift-boss.png" class="img-fluid">
-                                    </div>
-                                    <a class="card-img-overlay" href="play.html?game=drift-boss">Drift Boss</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="images/carousel/temple-run.png" class="img-fluid">
-                                    </div>
-                                    <a class="card-img-overlay" href="play.html?game=temple-run">Temple Run 2</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="images/carousel/monkey-mart.png" class="img-fluid">
-                                    </div>
-                                    <a class="card-img-overlay" href="play.html?game=monkey-mart">Monkey Mart</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="images/carousel/retro-bowl.png" class="img-fluid">
-                                    </div>
-                                    <a class="card-img-overlay" href="play.html?game=retro-bowl">Retro Bowl</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="images/carousel/1v1-lol.png" class="img-fluid">
-                                    </div>
-                                    <a class="card-img-overlay" href="play.html?game=1v1-lol">1v1 LoL</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="images/carousel/head-soccer.png" class="img-fluid">
-                                    </div>
-                                    <a class="card-img-overlay" href="play.html?game=head-soccer">Head Soccer 2022</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel End -->
-
         <div class="container main-content">
             <!-- Trending section -->
             <div class="section-title">
-                <img src="images/trending.png"/>
-                <h3 class="title-text">Trending</h3>
+                <h3 id="category-title"></h3>
             </div>
-            <div class="row grid-container trending-games-container"></div>
-            <hr class="my-5">
-            <!-- New games section -->
-            <div class="section-title">
-                <img src="images/new.png"/>
-                <h3 class="title-text">New Games</h3>
-            </div>
-            <div class="row grid-container new-games-container"></div>
+            <div class="row grid-container games-list-container"></div>
+
+            <h4 style="display: none" id="no-games">No games founded. Please back later!</h4>
         </div>
 
 
@@ -200,10 +117,9 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="js/category.js"></script>
         <script src="js/script.js"></script>
         <script src="js/load.js"></script>
-        <script src="lib/carousel.js"></script>
     </body>
 
 </html>

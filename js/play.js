@@ -10,4 +10,9 @@ fetch('data.json')
         if (game?.lock_full_screen) {
             fullScreen.style.display = "none";
         }
+
+        //Load the popular games
+        const trendingContainer = document.querySelector('.trending-games-container');
+        const trendingGames = games.sort((a,b) => b.order - a.order)?.slice(0,18);
+        appendItems(trendingGames, trendingContainer);
     }).catch(error => console.error('Error:', error));
