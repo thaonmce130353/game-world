@@ -450,3 +450,26 @@ color: #000;
         color: #FDF001;
     }
 }
+
+.pagination .page-link {
+    color: #040D12;
+    background-color: #EEEEEE;
+
+    &:hover {
+        background-color: #ddd;
+        color: #3366cc;
+    }
+}
+
+.page-item.active .page-link {
+    color: #3366cc;
+    background-color: #BBBBBB;
+    border: 1px #BBBBBB solid;
+}
+
+.pagination-content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+}
