@@ -71,7 +71,7 @@
       "name": "Bloxorz",
       "categories": "puzzle",
       "image": "images/icons/bloxorz.png",
-      "url": "https://thaonmce130353.github.io/games/bloxorz/ruffle.html",
+      "url": "https://thaonmce130353.github.io/games/flash-game/index.html?game=bloxorz",
       "lock_full_screen": true,
       "order": 3
     },
@@ -326,6 +326,36 @@
       "image": "images/icons/wordle-game.png",
       "url": "https://thaonmce130353.github.io/games/wordle-game/index.html",
       "order": 18
+    },
+    {
+      "id": 136,
+      "game_url": "age-of-war",
+      "name": "Age of War",
+      "categories": "adventure,skill",
+      "image": "images/icons/age-of-war.png",
+      "url": "https://thaonmce130353.github.io/games/flash-game/index.html?game=age-of-war",
+      "order": 56,
+      "lock_full_screen": true
+    },
+    {
+      "id": 137,
+      "game_url": "dongkey-kong",
+      "name": "Dongkey Kong",
+      "categories": "adventure,skill",
+      "image": "images/icons/dongkey-kong.png",
+      "url": "https://thaonmce130353.github.io/games/flash-game/index.html?game=dongkey-kong",
+      "order": 18,
+      "lock_full_screen": true
+    },
+    {
+      "id": 138,
+      "game_url": "papas-cheeseria",
+      "name": "Papas Cheeseria",
+      "categories": "adventure,skill",
+      "image": "images/icons/papas-cheeseria.png",
+      "url": "https://thaonmce130353.github.io/games/flash-game/index.html?game=papas-cheeseria",
+      "order": 22,
+      "lock_full_screen": true
     }
   ]
 }
